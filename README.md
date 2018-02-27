@@ -10,7 +10,7 @@
 
 4) Clicking on a point on the left side will open a plot on the right side showing the normalized counts for all the samples for the transcript you clicked (green and orange colored points) and for the other transcripts of the gene that had differences. This example shows kallisto with very low counts for the samples from the CNL sequencing center. Green indicates sequencing centers with more fragment sequence bias, while orange indicates less fragment sequence bias. The diagonal lines are `y = 2x` and `x = 2y`.
 
-![Example of clicking a transcript](example.png)
+![Example of clicking a transcript](example.PNG)
 
 The SEQC quantifications are those from the [Salmon publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5600148/). Quantifications were made against the RefSeq gene annotation file and the genome FASTA contained within the hg19 Illumina iGenome using Salmon 0.8.0 with `--gcBias --seqBias` and kallisto 0.43.0 with `--bias`. The LRT in DESeq2 was used to generate p-values for each transcript, comparing a model with sequencing center to a model with just the intercept.
 
