@@ -51,6 +51,7 @@ server <- function(input, output) {
     boxsub$bias[boxsub$txp != near$txp]  <- "none"
     ggplot(boxsub, aes(x=center,color=bias,fill=bias)) +
       geom_boxplot(aes(ymin=X0,lower=X25,middle=X50,upper=X75,ymax=X100),size=1,stat="identity") +
+      ylab("normalized counts") + 
       expand_limits(y=0) + 
       facet_grid(txp~method, scale="free_y") +
       scale_color_brewer(palette="Dark2") + 
