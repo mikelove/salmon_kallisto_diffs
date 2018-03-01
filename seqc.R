@@ -81,6 +81,7 @@ server <- function(input, output) {
     ggplot(dat, aes(x=center, y=counts, col=bias, fill=bias)) +
       geom_jitter(size=3, width=0.1, height=0, shape=21, stroke=2) +
       expand_limits(y=0) + 
+      ylab("normalized counts") + 
       scale_color_brewer(palette="Dark2") + 
       scale_fill_manual(values=c("darkseagreen1","wheat","white")) + 
       facet_grid(txp~method, scale="free_y") + th
