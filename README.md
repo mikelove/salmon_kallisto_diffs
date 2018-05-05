@@ -1,6 +1,8 @@
 # Salmon vs kallisto on GEUVADIS and SEQC datasets
 
-[Associated slides](https://goo.gl/ftK55e)
+## Google Slides associated with this Shiny app
+
+* [Fragment-level bias modeling for RNA-seq data analysis](https://goo.gl/ftK55e)
 
 ## A Shiny app to explore differences in transcript abundance estimation on GEUVADIS and SEQC
 
