@@ -1,6 +1,8 @@
-# Shiny app
+# Salmon vs kallisto on GEUVADIS and SEQC datasets
 
-## Differences in transcript abundance estimation on Geuvadis and SEQC datasets between Salmon and kallisto
+[Associated slides](https://goo.gl/ftK55e)
+
+## A Shiny app to explore differences in transcript abundance estimation on GEUVADIS and SEQC
 
 ## How to load the Shiny app
 
